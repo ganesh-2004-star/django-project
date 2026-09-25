@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+<h1>{{ title }}</h1>
+
+
+<p>Email: {{ email }}</p>
+<p>Phone: {{ phone }}</p>
+
+
+{% if urgent_notice %}
+    <p><strong>Notice:</strong> We are experiencing high call volumes!</p>
+{% endif %}
+
+
+<h3>Days We Are Available:</h3>
+<ul>
+    {% for day in available_days %}
+        <li>{{ day }}</li>
+    {% endfor %}
+</ul>
+
+   
+</body>
+</html>
