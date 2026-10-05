@@ -9,9 +9,9 @@ def home(request):
         
        
         "features": [
-            {"title": "Easy Coding", "description": "Django makes web development fast and fun."},
-            {"title": "Clean Templates", "description": "Dynamic data prints safely to your HTML page."},
-            {"title": "Instant Updates", "description": "Change it here in Python, and it updates instantly."},
+            {"title": "harry potter", "description": "Harry Potter is a famous fantasy media franchise centered on a series of seven novels written by British author J.K. Rowling"},
+            {"title": "game of thrones ", "description": " Following the death of the King, several noble houses—primarily the Starks, Lannisters, Baratheons, and Targaryens—engage in a brutal web of political intrigue, civil war, and psychological scheming to claim total rule over the Seven Kingdoms."},
+            {"title": "vikings", "description": " The first half of the series centers on Ragnar Lothbrok (played by Travis Fimmel), a visionary farmer and warrior who frustrates his local chieftain by daring to sail west into uncharted waters. Alongside his shield-maiden wife Lagertha and his eccentric shipbuilder friend Floki, Ragnar orchestrates the first Norse raids on England and France, eventually rising to become the King of the Viking tribes."},
         ]}
     return render(request,'home.html',context)
 
